@@ -1,0 +1,108 @@
+html {
+
+}
+
+body {
+  min-width: 400px;
+  font-size: 14px;
+  font-family: 'Work Sans', sans-serif;
+  background-color: rgb(255, 242, 242);
+  color: rgb(32, 64, 86);
+}
+
+.container {
+  padding-top: 5.25rem;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+p {
+  color: rgb(74, 74, 74);
+}
+
+.counter{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: inherit;
+}
+
+.btn {
+  margin: 2rem 0;
+  background-color: hsl(120, 50%, 45%);
+}
+
+#rules {
+  width: 100%;
+}
+
+#game {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.card {
+  height: 12.5rem;
+  background-color: rgb(32, 64, 86);
+  border: 4px solid #ffffff;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-size: 7rem;
+}
+
+.col-xs-3 {
+  /* width: 25%; */
+}
+
+.row-md-9, .col-xs-12 {
+  justify-content: space-between;
+
+}
+
+.card-title {
+  font-weight: 900;
+  font-size: 7rem;
+  color: rgb (255, 255, 255);
+}
+
+.card::after {
+  color: hsl(25, 85%, 65%);
+
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
